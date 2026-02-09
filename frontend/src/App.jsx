@@ -21,7 +21,8 @@ function App() {
 
     try {
 
-      const response = await fetch("http://localhost:5000/generate-description", {
+      const response = await fetch("https://ai-product-description-generator-q27g.onrender.com/generate-description",
+ {
 
         method: "POST",
 
